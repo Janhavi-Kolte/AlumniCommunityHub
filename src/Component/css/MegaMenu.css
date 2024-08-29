@@ -1,0 +1,65 @@
+/* src/Components/MegaMenu.css */
+
+.mega-menu {
+    background-color: #007bff;
+    padding: 10px 0;
+  }
+  
+  .mega-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .mega-menu ul li {
+    position: relative;
+    margin: 0;
+  }
+  
+  .mega-menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  
+  .mega-menu ul li a:hover {
+    background-color: #0056b3;
+    border-radius: 4px;
+  }
+  
+  .mega-menu-dropdown {
+    position: relative;
+  }
+  
+  .mega-menu-dropdown .mega-menu-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    white-space: nowrap;
+    z-index: 1000;
+  }
+  
+  .mega-menu-dropdown:hover .mega-menu-content {
+    display: block;
+  }
+  
+  .mega-menu-content a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .mega-menu-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
